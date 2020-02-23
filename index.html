@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" charset="utf-8"></script>
+        <script src="app.js" charset="utf-8"></script>
+        <link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911|Raleway|Stoke&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Beer And...</title>
+    </head>
+    <body>
+        <header>
+            <h1>Beer And...</h1>
+            <h2>The Perfect Beer & Food Pairing</h2>
+        </header>
+        <div id="first">
+            <h2 class="dark">Discover a New Brew</h2>
+            <p class="dark">Click below to discover a random craft beer</p>
+            <button id="randomButton">A Random Beer</button>
+                <div class="modal" id="modalRandom">
+
+                </div>
+        </div>
+        <div id="quote">
+            <h2>“Why beer is better than wine: Human feet are conspicuously absent from beer making." - Steve Mirsky</h2><br>
+            <p>Though wine has long been considered the ideal companion of a flavorful meal, the current rise of interest in craft beer has piqued a subsequent curiousity in pairing beer with its perfect culinary counterpart. Find a pairing below, starting with your choice of beer or food, or take a peek at the Brewer's Assocation's <a href="https://www.brewersassociation.org/attachments/0000/2095/Beer_and_Food_Flyer_MDC.pdf"> Comprehensive Beer & Food Matching Chart  </a> to learn more.
+            </p>
+        </div>
+        <div id="second">
+            <h2>Search By Beer</h2>
+            <p>Find a new pairing by searching a beer type</p>
+            <form id="byBeer">
+                <input type="text" id="searchBeer" placeholder="Lager, Ale, Stout..."/>
+                <button id="searchBeerButton">Search By Beer</button>
+                <div class="modal" id="modalBeer">
+
+                </div>
+            </form>
+        </div>
+        <div id="third">
+            <h2>Search By Food</h2>
+            <p>Find a new pairing by searching a food</p>
+            <form id="byFood">
+                <input type="text" id="searchFood" placeholder="Salmon, Fries, Apple..."/>
+                <button id="searchFoodButton">Search By Food</button>
+                <div class="modal" id="modalFood">
+
+                </div>
+            </form>
+        </div>
+        <footer>
+            <h2>Credits</h4>
+                <ul>
+                    <li>Data Sourced from <a href="https://punkapi.com/">PunkApi</a></li>
+                    <li>Images Sourced from <a href="https://unsplash.com">Unsplash</a> </li>
+                </ul>
+        </footer>
+    </body>
+</html>
